@@ -1,5 +1,4 @@
-package hojadetrabajo6;
-/**
+/*
 *
 *
 @Author Andree Toledo
