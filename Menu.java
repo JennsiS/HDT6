@@ -44,7 +44,7 @@ public class Menu {
 		*/
 		
         System.out.println(
-		"1) Agregar carta a su comodidad");
+		"1. Agregar carta a su comodidad");
 		       /*
 		*
 		*
@@ -54,7 +54,7 @@ public class Menu {
 		*/
 		
         System.out.println(
-		"2) Muestra de carta especifica");
+		"2. Muestra de carta especifica");
 		       /*
 		*
 		*
@@ -64,7 +64,7 @@ public class Menu {
 		*/
 		
         System.out.println(
-		"3) Todas las cartas mostradas");
+		"3. Todas las cartas mostradas");
 		       /*
 		*
 		*
@@ -74,7 +74,7 @@ public class Menu {
 		*/
 		
         System.out.println(
-		"4) Todas las cartas mostradas en orden");
+		"4. Todas las cartas mostradas en orden");
 		       /*
 		*
 		*
@@ -84,7 +84,7 @@ public class Menu {
 		*/
 		
         System.out.println(
-		"5) Todas las cartas mostradas");
+		"5. Todas las cartas mostradas");
 		       /*
 		*
 		*
@@ -94,7 +94,7 @@ public class Menu {
 		*/
 		
         System.out.println(
-		"6) Todas las cartas mostradas en orden");
+		"6. Todas las cartas mostradas en orden");
 		       /*
 		*
 		*
@@ -104,7 +104,7 @@ public class Menu {
 		*/
 		
         System.out.println(
-		"7) Terminar");
+		"7. Terminar");
     }
            /*
 		*
