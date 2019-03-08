@@ -1,7 +1,16 @@
 
 import java.util.Set;
-
-
+/**
+ * @author Jennifer Sandoval,Andre Toledo
+ * @Carne 18962,18439
+ * @date 06/03/19
+ * @name AbstractMap.java
+ * <p>Clase Abstracta con los metodos de la clase Map </p>
+ * */
+/**
+ * @param <K>
+ * @param <E>
+ */
 public abstract class AbstractMap <K,E> implements Map {
     
     @Override

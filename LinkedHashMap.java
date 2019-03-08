@@ -1,11 +1,12 @@
-
 import java.util.Set;
 
-
 /**
- *
- * @author 
- */
+ * @author Jennifer Sandoval,Andre Toledo
+ * @Carne 18962,18439
+ * @date 06/03/19
+ * @name LinkedHashMap.java
+ * <p>Clase que implementa la interfaz MAP extraida de Java Collection Framework </p>
+ * */
 public class LinkedHashMap extends AbstractMap {
 
     @Override

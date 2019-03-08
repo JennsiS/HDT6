@@ -1,15 +1,15 @@
-
 import java.util.Map;
 import java.util.HashMap;
 import java.util.TreeMap;
 import java.util.LinkedHashMap;
 
-
 /**
- *
- *
- * @author Andree Toledo
- */
+ * @author Jennifer Sandoval,Andre Toledo
+ * @Carne 18962,18439
+ * @date 06/03/19
+ * @name Factory.java
+ * <p>Clase encargada de implementar el diseño factory  </p>
+ * */
  
  
 public class Factory {
@@ -20,6 +20,13 @@ public class Factory {
 		*
 		*
 		*/
+
+    /**
+     *
+     * @param inicialized
+     * @return Map, retorna un mapa
+     */
+
 		
     public Map Crearmap_l(int inicialized){
         if(inicialized==1){

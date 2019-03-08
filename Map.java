@@ -1,41 +1,11 @@
-
 import java.util.Set;
-
-
 /**
- * Associations establish a link between a key and a value.  
- * An associative array or map is a structure that allows a disjoint
- * set of keys to become associated with an arbitrary set of values.  
- * The convenience of an associative array is that the values used to 
- * index the elements need not be comparable and their range need not 
- * be known ahead of time.  Furthermore, there is no upper bound on 
- * the size of the structure.  It is able to maintain an arbitrary number 
- * of different pieces of information simultaneously.  Maps are sometimes 
- * called dictionaries because of the uniqueness of the association of
- * words and definitions in a household dictionary.  
- * <P>
- * Example Usage:
- * <P>
- * To create a dictionary by reading a collection of words and 
- * definitions from System.in we could use the following!
- * <P> 
- * <pre>
- * public static void main (String[] argv){
- *      Map dict = new {@link structure.MapBST#MapBST()};
- *      ReadStream r = new ReadStream();
- *      String word, def;
- *      System.out.println("Enter a word: ");
- *      while(!r.eof()){
- *          word = r.readLine();
- *          System.out.println("Enter a definition: ");
- *          def = r.readLine();
- *          dict.{@link structure.MapBST#put(Object,Object) put(word,def)};
- *          System.out.println("Enter a word: ");
- *      }
- *      System.out.println(dict);
- * }
- * </pre>
- */
+ * @author Jennifer Sandoval,Andre Toledo
+ * @Carne 18962,18439
+ * @date 06/03/19
+ * @name Map.java
+ * <p>Interfaz de Map, con todos los metodos de un map </p>
+ * */
 public interface Map<K,V>
 {
     /**
